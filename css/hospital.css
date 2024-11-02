@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#BOOK_APPOINTED {
+    border: 1px solid #48cae4;
+    transition: 1s;
+    color: black;
+}
+
+#BOOK_APPOINTED:hover {
+    background-color: #48cae4;
+    color: white;
+}
+
+#col_main
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sub_heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.para {
+    text-align: justify;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#Appointed_img {
+    height: 90%;
+    margin-right: 10px;
+}
+
+.Accordition_main {
+    display: inline-block;
+    width: 100%;
+}
+.end {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+#doc_card_main {
+    background-color: #48cae4;
+    height: 100%;
+    width: 100%;
+}
+
+#best {
+    background-color: #48cae4;
+    height: 100%;
+    width: 100%;
+}
+
+.Accordition_main {
+    background-color: #48cae4;
+}
+
+.end_logo {
+    height: 70px;
+    width: 160px;
+}
+
+.end_position {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.end_para {
+    margin: 8% 0px 0px 5%;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.app_logo {
+    height: 100%;
+    width: 100%;
+}
+
+.footer_add {
+    color: white;
+}
+
+.footer_num {
+    color: white;
+}
+
+.footer_mail {
+    color: white;
+}
+
+.app_logo img {
+    height: 20px;
+    width: 20px;
+    margin: 40px 10px 5px 10px;
+    transition: 1s;
+}
+
+.footer_nav {
+    margin-left: 40px;
+}
+
+.footer_nav_location {
+    font-size: 15px;
+    margin: 4% 0px 0px 15%;
+}
+
+.logo_main {
+    margin-left: 30px;
+}
+
+.app_logo img:hover {
+    transform: translatey(-10px);
+}
+
+.footer2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.quick {
+    font-size: 15px;
+    margin-top: 6%;
+}
+
+.footer_doc {
+    margin: 10px;
+    color: white;
+}
+
+.footer3 div {
+    margin: 10px;
+}
+
+.footer_contact {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 28%;
+    color: black;
+}
+@media (min-width:300px) and (max-width:600px) {
+
+    #doctor_card {
+        margin-bottom: 5%;
+    }
+
+    #doctor {
+        margin-left: 5%;
+    }
+    #Appointed_img {
+        height: 80%;
+        width: 350px;
+        margin-left: 10px;
+    }
+    .gif
+    {
+        margin-left: 10px;
+        width: 350px;
+    }
+
+    .end {
+        grid-template-columns: none;
+    }
+
+    .end_logo {
+        height: 100px;
+        width: 170px;
+    }
+
+    .end_para {
+        margin: 10% 0px 0px 5%;
+        text-align: justify;
+        font-weight: bold;
+    }
+
+    .app_logo {
+        height: 100%;
+        width: 100%;
+    }
+
+    .app_logo img {
+        height: 30px;
+        width: 30px;
+        margin: 50px 20px 10px 30px;
+    }
+
+    .app_logo img:hover {
+        transform: translatey(-15px);
+    }
+
+    .quick {
+        font-size: 1.2rem;
+        margin-top: 10%;
+    }
+
+    .footer_nav {
+        font-size: 2.2rem;
+    }
+
+    .footer_nav_location {
+        margin-right: 10%;
+        font-size: 2.4rem;
+    }
+
+    .footer_doc {
+        margin: 10px;
+        font-size: 1.5rem;
+    }
+
+    .footer3 div {
+        margin: 10px;
+    }
+
+    .footer_contact {
+        font-size: 2rem;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .footer_add {
+        text-align: center;
+        margin: 5px;
+        font-size: 1.5rem;
+    }
+
+    .footer_num {
+        text-align: center;
+        margin: 5px;
+        font-size: 1.5rem;
+    }
+
+    .footer_mail {
+        text-align: center;
+        margin: 5px;
+        font-size: 1.5rem;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:900px) {
+    #doc_card {
+        margin: 25px 0px 0px 25%;
+    }
+
+    #provide_card {
+        position: relative;
+        right: 100px;
+    }
+
+    #provide_card_gem {
+        position: relative;
+        left: 100px;
+    }
+
+    #Appointed_img {
+        height: 90%;
+        margin-left: 16%;
+    }
+
+    .app_logo img {
+        height: 35px;
+        width: 35px;
+    }
+}
